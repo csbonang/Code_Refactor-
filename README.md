@@ -1,6 +1,8 @@
 # Code_Refactor-
+  Programmer: Clarisse Bonang
+  Deployed Link: https://csbonang.github.io/Code_Refactor-/ 
 # Description 
-
+The purpose of this assignment is to refactor existing code. To accomplish this task, I had to refine the given code and adhere to the coding requirements specified below. 
 # Requirements 
 1. Source code includes semantic HTML elements  
 2. Structure of the HTML elements follow a logical structure independent of styling and positioning 

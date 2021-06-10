@@ -8,6 +8,13 @@
 </head>
 
 <body>
+    <!--Top of Page:: includes a header and navigation bar-->
+    <!--Updates:: 
+        1. Removed non-sematic HTML elements (div and span). 
+        2. Used the <nav> tag instead to indicate that a set 
+           of links are being used. 
+        3. Replaced class header with header. 
+    -->
     <header> 
         <h1 class="seo">Horiseon</h1>
         <nav> 
@@ -24,7 +31,14 @@
             </ul>
         </nav>
     </header>
-    <section class= "hero"></section>
+    <!--End:: Top of Page -->
+    <!--Main Content:: includes descriptions, images, and is displayed into 3 rows-->
+    <!--Updates:: 
+        1. Removed non-semantic elements(div). Used <article> and <section instead. 
+        2. Added an id to search engine optimization. In doing so, the href is able to trek to 
+           the proper section. 
+        -->
+    <figure class= "hero"></figure>
     <article class="content">  
         <section id= "search-engine-optimization"class="eachContent">
             <img src="./assets/images/search-engine-optimization.jpg" alt = "Search Engine Optimization" class="float-left" />
@@ -48,6 +62,13 @@
             </p>
         </section>
     </article>
+    <!--End:: Main Content-->
+
+    <!--Content:: Displayed on the side of the webpage that provides a description 
+                  of the benefits that is offered. 
+        Updates::
+        1. Replaced/removed divs. Used <aside> and <section>. 
+    -->
     <aside class="benefits">
         <section class="benefit-display">
             <h3>Lead Generation</h3>
@@ -71,11 +92,17 @@
             </p>
         </section>
     </aside>
+    <!--End:: Content-->
+    <!--Footer:: The footer of the webpage-->
+    <!--Updates: 
+        1. Removed div and class footer. Used footed instead
+    -->
     <footer>
         <h2 id = "bottom_footer">Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
     </footer>
+    <!--End:: Footer-->
 </body>
 </html>

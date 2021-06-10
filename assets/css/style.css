@@ -43,7 +43,8 @@ nav
 
 }
 
-/* ul:: Sematic element used to indicate Unordered List  */ 
+/* ul:: Sematic element used to indicate Unordered List 
+        The ul tags will not include any bullet points */ 
 ul
 {
     list-style-type: none;
@@ -120,7 +121,7 @@ float-right:: The element will float to the right
 /*.class selector:: eachContent 
     Each block of code assigned to eachContent 
     will default to the following changes below.
-    For instance, the background color and margin. 
+    For instance, the background color and margin will update. 
 */ 
 .eachContent
 {
@@ -137,7 +138,7 @@ float-right:: The element will float to the right
     max-height: 200px;
 }
 
-/*Updates he2 that is part of the class eachContent*/ 
+/*Updates h2 that is part of the class eachContent*/ 
 .eachContent h2 
 {
     margin-bottom: 20px;
