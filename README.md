@@ -11,7 +11,7 @@ In addition to upholding the requirements above, I made a few more changes to be
 2. The URL of the deployed application.
 
 # Screenshot 
-![Screenshot](images\Sreenshot.png)
+![Screenshot](images/Sreenshot.png)
 # References 
 Semantic Elements 
 https://www.w3schools.com/html/html5_semantic_elements.asp 
